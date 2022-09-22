@@ -1,7 +1,9 @@
 body{
     font-family: 'Alegreya Sans SC', sans-serif;
 font-family: 'Poppins', sans-serif;
+
 margin: 0;
+
 }
 h1{
     font-size: 50px;
@@ -11,6 +13,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half{
     width: 50%;
@@ -32,4 +35,26 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.part2-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+.part2-width img{
+    width: 80%;
+}
+
+#part-two{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
